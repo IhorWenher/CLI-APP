@@ -1,0 +1,27 @@
+{
+    "name": "cli-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "start:dev": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IhorWenher/CLI-APP.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IhorWenher/CLI-APP/issues"
+    },
+    "homepage": "https://github.com/IhorWenher/CLI-APP#readme",
+    "dependencies": {
+        "commander": "^8.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
